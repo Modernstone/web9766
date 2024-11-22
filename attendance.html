@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Attendance System - Attendance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="attendance.html">Attendance</a></li>
+        <li><a href="reports.html">Reports</a></li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <ul>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="settings.html">Settings</a></li>
+      <li><a href="logout.html">Logout</a></li>
+    </ul>
+  </aside>
+  <main>
+    <h1>Attendance</h1>
+    <form>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+      <label for="student">Student:</label>
+      <select id="student" name="student">
+        <!-- students will be listed here -->
+      </select>
+      <label for="status">Status:</label>
+      <select id="status" name="status">
+        <option value="present">Present</option>
+        <option value="absent">Absent</option>
+      </select>
+      <button>Submit</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
